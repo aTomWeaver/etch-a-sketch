@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    min-height: 21vh;
+    min-width: 21vh;
+}
+
+.row-container {
+    display: flex;
+        justify-content: center;
+    /* background-color: lightgray; */
+    /* border: 1px solid black; */
+}
+
+.square {
+    background-color: tomato;
+    flex-grow: 1;
+    padding: 5px;
+    margin: 5px;
+    min-height: 20vh;
+    min-width: 20vh;
+    max-width: 20vh;
+}
+
